@@ -1,0 +1,7 @@
+<div class="span3 sidebar-container" ng-hide="needToHide()">
+	<ul class="nav nav-tabs nav-stacked">
+		<li class='item' ng-repeat='item in options.data' ui-route="{{ item.link }}" ng-class="{active: $uiRoute}">
+			<a class='name' href='/#{{ item.link }}'> <i class="{{ item.icon }} icon-white" ng-show="item.icon" ></i> {{ item.name }} </a>
+		</li>
+	</ul>
+</div>

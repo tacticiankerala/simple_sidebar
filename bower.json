@@ -1,0 +1,22 @@
+{
+  "name": "simple_sidebar",
+  "version": "0.9.0",
+  "devDependencies": {
+    "angular": "~1.0.7",
+    "angular-mocks": "~1.0.7",
+    "bootstrap": "~3.0.0"
+  },
+  "homepage": "https://github.com/tacticiankerala/simple_sidebar.git",
+  "authors": [
+    "Sreenath N <tacticiankerala@gmail.com>"
+  ],
+  "description": "A simple sidebar directive for angular using bootstrap",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
